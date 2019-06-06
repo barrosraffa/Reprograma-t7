@@ -1,0 +1,48 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #4C4C4C;
+
+}
+
+table{
+    margin: 0 auto;
+    background-color: rgb(233, 233, 233);
+    margin-top: 2%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+thead{
+    padding: 20px;
+}
+
+tbody{
+    text-align: center;
+}
+
+button{
+    margin: 20px 0;
+    background-color: rgb(90, 90, 90);
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+button:focus{
+    outline:none;
+}
+
+tr > th{
+    max-width: 350px;
+}
+/* th{
+    font-weight: 400;
+} */

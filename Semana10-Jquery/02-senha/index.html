@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery - Reprograma</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <input type="password" name="senha" id="senha" />
+    
+    <br>
+    <br>
+
+    <div id="forca">Força: </div>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script> 
+    <script>
+
+        $(document).ready(function(){
+            $('#senha').keyup(function(){
+                var senha = $(this).val(); //this é esse 
+
+                var forca = 0;
+ 
+                if(senha.length > 4){
+                    forca += 25; //equivale a escrever forca:$(senha)`)
+                }
+
+                var regNumerico = new RegExp(/[0-9]/i);
+                if(regNumerico.test(senha)){
+                    forca += 25;
+                }
+
+                var regText = new RegExp (/[a-z]/i) //RegExp EXPRESSOES REGULARES
+                if(regText.test(senha)){
+                    forca += 25;
+                }
+
+                var regEspecial = new RegExp (/[^a-z0-9]/i)
+                if(regEspecial.test(senha)){  //.test ve se na minha variavel tem caracteres especiais
+                    forca += 25;
+                }
+
+                var aceito = "Não";
+                // indicador de sucesso
+                if(forca >= 75) {
+                    aceito = " Sim";
+                    $(this).removeClass('erro');
+                    $(this).addClass('sucesso'); 
+                }else{
+                    $(this).removeClass('sucesso');
+                    $(this).addClass('erro');
+                }
+                
+                // outra forma de fazer
+
+                // aceito = (forca >= 75);
+                // console.log(aceito)
+
+                // $(this).toggleClass('sucesso', aceito);
+                // $(this).toggleClass('erro', !aceito); 
+
+                $('#forca').html(`Força:${forca} - Senha:${senha} - Aceito${aceito}`); //"Força: " + forca + "Senha: " +senha
+            }); 
+        });
+    </script>
+</body>
+
+</html>

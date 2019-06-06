@@ -1,0 +1,24 @@
+button{
+    background-color: rgb(150, 55, 179);
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: none;
+    margin: 10px;
+}
+
+.lilas{
+    background-color: rgb(242, 200, 255);
+    color: rgb(150, 55, 179);
+}
+
+.transparente-grande{
+    background-color: #ffffff;
+    border: 2px solid rgb(150, 55, 179);
+    color: rgb(150, 55, 179);
+}

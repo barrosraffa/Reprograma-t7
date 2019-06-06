@@ -1,0 +1,35 @@
+//tudo que vai ser usado em todos os outros, tudo que nao seja var
+
+body {
+    margin: 0;
+    font-family: "Open-sans",  sans-serif;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    @media screen and (max-width: $mobile){
+        width: 90%;
+}
+}
+
+.header-text{
+    @include title(uppercase, $color-primaria);
+}

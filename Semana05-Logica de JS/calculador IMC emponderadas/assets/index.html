@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"  >
+    <script src="./script.js"  ></script>
+    <title>Calculo IMC</title>
+</head>
+
+<body>
+    <section class="contente">
+        <div id="table" class="col" >
+            <table>
+                <thead>
+                        <tr class="linha1">
+                            <th>IMC</th>
+                            <th>Classificação</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        <tr class="linha2">
+                            <td>Abaixo de 18</td>
+                            <td>"Cê ta linda, linda 😎"</td>
+                        </tr>
+
+                        <tr class="linha3">
+                            <td> Entre 18 - 24</td>
+                            <td>"Eita, delicia! 😎"</td>
+                        </tr>
+
+                        <tr class="linha4">
+                            <td> Entre 25 e 30</td>
+                            <td>"Oooooo, que maravigold! 😎"</td>
+                        </tr>
+
+                        <tr class="linha5">
+                            <td> Entre 30 e 40</td>
+                            <td>"Fada sem defeitos!!! 😎"</td>
+                        </tr>
+
+                        <tr class="linha6">
+                            <td>Acima de 40</td>
+                            <td>"Ai meu coração! 😎"</td>
+                        </tr>
+                        
+                </tbody>
+            </table>
+        </div>
+        <div id="calc" class="col">
+            <label for=""> Peso (em kg) </label>
+            <input id="peso"  type="text" >
+            <label for="">Altura</label>
+            <input id="altura" type="text" >
+            <button onclick="calculoIMC()">Calcular</button>
+        </div>
+
+        <div class="col">
+            <p>Seu IMC é: </p>
+            <p id="resposta"></p>
+            <div id="lugarGif"></div>
+        </div>
+    </section>
+    
+</body>
+</html>

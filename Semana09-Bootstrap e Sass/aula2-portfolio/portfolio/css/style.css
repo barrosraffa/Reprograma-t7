@@ -1,0 +1,50 @@
+.cabecalho {
+    background-image: url("../imagens/header-bg.jpg");
+    background-position: center;
+    height: 80vh;
+}
+
+.texto {
+    text-align: center;
+    padding-top: 180px; 
+    color: white;
+}
+
+.texto2 {
+    text-align: center;
+    padding-top: 80px; 
+}
+
+.portfolio {
+    background-color: whitesmoke;
+}
+
+/* .card {
+    padding-bottom: 60px;
+} */
+
+.card-body {
+    text-align: center;
+}
+
+.formulario__mapa {
+    background-image: url("../imagens/map-image.png")
+}
+
+.form-mapa {
+    padding: 68px;
+}
+
+button {
+    text-align: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.ibagem {
+    width: 50px;
+}

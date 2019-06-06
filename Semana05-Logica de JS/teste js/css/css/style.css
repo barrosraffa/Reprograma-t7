@@ -1,0 +1,20 @@
+.gatinho
+ {
+    display: block;
+    justify-content: center;
+}
+
+.texxto {
+    text-align: center;
+}
+
+.img__gatinho {
+    height: 400px;
+
+
+}
+
+.button {
+    display: block;
+    justify-content: center;
+}

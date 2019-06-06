@@ -1,0 +1,24 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Cinzel', serif;
+    background: #F2F2F2;
+}
+
+.nome_serie {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#botao {
+    padding: 10px;
+    background: #393b41;
+    color: #ffffff;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 25px;
+}

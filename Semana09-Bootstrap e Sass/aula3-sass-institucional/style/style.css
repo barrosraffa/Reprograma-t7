@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: "Open-sans",  sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.header-text {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.header {
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+h1 {
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  width: 87px;
+  color: #ffffff;
+}
+
+.navbar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-right li + li {
+  margin-left: 30px;
+}
+
+.navbar-right li a {
+  color: #ffffff;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo-container img {
+  width: 60px;
+}
+
+.banner {
+  background: url(../images/bg3.jpg);
+  background-size: cover;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.banner .banner-content {
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .parallax-image {
+  width: 100%;
+  text-align: center;
+}
+
+.banner .parallax-image .phone {
+  height: 570px;
+  margin-bottom: -140px;
+}
+
+.banner-text {
+  width: 50%;
+  padding: 0 0 150px 120px;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: unset;
+  color: #ffffff;
+}
+
+h5 {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.btn-fill {
+  padding: 10px 20px;
+  background: #5da09c;
+  text-transform: capitalize;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-simple {
+  padding: 10px 20px;
+  background: transparent;
+  text-transform: capitalize;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.section-clients {
+  background: #e9e9e9;
+  text-align: center;
+  padding: 70px;
+}
+
+.section-clients p {
+  padding: 20px 0;
+}
+
+.list-unstyled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+li + li {
+  padding-left: 30px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.jogo__lista {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color:#5D94B1;
+    color: white;
+    
+}

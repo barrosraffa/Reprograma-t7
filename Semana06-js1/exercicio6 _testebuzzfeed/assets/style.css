@@ -1,0 +1,60 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    width: 45%;
+
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+}
+
+h3 {
+    font-size: 30px;
+    /* background-color: rgb(177, 177, 232); */
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(66, 64, 64);
+}
+
+.comidas {
+    flex-direction: column;
+}
+
+.shimeji {
+    height: 35vh;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.check {
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#resultado {
+    font-size: 30px;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+}
+
+.comidas li {
+    border: 1px solid rgb(181, 181, 181);
+    margin: 10px;
+    padding: 8px;
+}

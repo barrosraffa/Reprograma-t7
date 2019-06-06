@@ -1,0 +1,36 @@
+@mixin flex ($align, $justify){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    
+}
+
+// criar variavel dentro do ( ) e depois chama-las em outro lugar
+
+@mixin button($pd-y, $pd-x, $bg, $text){
+    padding: 10px 20px;
+    background: $bg;
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+// .botaoX{
+//     @include button(10px, 20px, $color-secundaria, #cccccc )
+// }
+
+@mixin title ($tranformers, $color) {
+    font-size: $font-size-titulo; //24px
+    text-transform:  $tranformers; // uppercase
+    color: $color; //white
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+.banner{
+    background: url(../images/bg3.jpg);
+    background-size:cover; 
+    height: 85vh;
+    overflow: hidden;
+
+    .banner-content{
+        height: 85vh;
+        @include flex(flex-end, center)
+    }
+
+    .parallax-image{
+        width: 100%;
+        text-align: center;
+        
+        .phone {
+        height: 570px;
+        margin-bottom: -140px;
+        }
+    }
+}
+
+.banner-text {
+    width: 50%;
+    padding: 0 0 150px 120px;
+}
+
+h2{
+    @include title(unset, $color-secundaria)
+}
+
+h5{
+    color: $color-secundaria;
+    font-size: $font-size-text
+}
+
+.btn-fill{
+    @include button(15px,20px, $color-icon, $color-bg )
+}
+
+.btn-simple{
+    @include button(15px,20px,transparent,$color-secundaria);
+    font-size:20px;
+}

@@ -1,0 +1,179 @@
+
+body {
+margin: 0%;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+
+
+.nav__menu {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #a0bed0;
+    padding: 3%;
+    align-items: center;
+    margin: 0%;
+    list-style: none;
+
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+    color: #fff;
+}
+
+/*banner*/
+
+.banner__container {
+    text-align: center;
+    padding-top: 15%;
+    background: url("../imagens/foto-banner.jpg");
+    height:40vh;
+    background-size: cover;
+    color: rgba(255, 255, 255, .9);
+    background-position: center;
+}
+
+.banner__titulo {
+    font-size: 500%;
+    padding-top: 0%;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.banner__botao {
+    padding: 2% 6%; 
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #829dad;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
+
+
+/*about*/
+
+.banner__sobre {
+    background-color: rgba(22, 22, 22, .8);
+    padding: 2%;
+    text-align: center;
+    color: #fff;
+}
+
+.sobre__titulo {
+    margin-bottom: 20px;
+    
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*siberia*/
+
+.destino__siberia {
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+
+}
+
+.destino__siberia__img {
+    height: 500px;
+    padding: 40px;
+
+
+}
+
+.destino__texto { 
+    height: 30%;
+    justify-content: center;
+}
+
+
+
+/*grade
+
+.container__grade {
+    margin: 0 auto;
+}
+
+.destino__gelado {
+    width: 100%;
+    background-color: rgba(22, 22, 22, .8);
+    color: #fff;
+    display: flex;
+}
+
+.groenlandia , .antartica {
+    width: 80%;
+
+}
+
+/*.groenlandia__texto, .groenlandia__imagem, .antartica__texto, .antartica__imagem {
+    width: 50%;
+}
+
+
+.antartica__imagem, .groenlandia__imagem {
+    max-height: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+*/
+.footer {
+    background-color: #161616;
+    padding: 14%;
+    margin-top: 20%;
+    justify-content: center;
+    color: #fff;
+    
+    
+}
+
+.footer__socialmedia {
+    display: flex; 
+}
+
+
+@media(max-width: 960px) {
+    .container {
+        width: 100%;
+        padding: 0 4%;
+    }
+}
+
+@media (max-width: 420px) {
+    .banner {
+    height: 400px;
+    background-position: -360px 0;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner__titulo {
+    Font-size: 60px;
+    }
+}
+
+@media (max-width: 850px) {
+    .destino__siberia {
+    display: block;
+    text-align: center;
+
+    }    
+}
+
+@media (max-width: 850px) {
+    .destino__siberia__img {
+        max-width: 100%;
+        height: auto;
+    }
+}
