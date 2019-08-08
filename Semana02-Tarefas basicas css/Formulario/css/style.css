@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #292838;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.background_form {
+    background: #8A8E9C;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 10px 15px 35px -5px rgba(0,0,0,.75)
+}
+
+h1 {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+form {
+    padding-left: 40px;
+}
+
+form div {
+    padding: 5px 0;
+}
+
+form div input {
+    margin-left: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 60px;
+    color: #8A8E9C;
+    text-align: center;
+    padding-top: 45px;
+    border: 1px solid transparent;
+}
+
+.conte_vida {
+    display: block;
+}
+input {
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1.5384616;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+.enviar {
+    width: 175px;
+}

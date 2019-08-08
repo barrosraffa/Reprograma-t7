@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet"> 
         <Title>Formulários</Title>
 </head>
 
 <body>
+    <section class="background_form">
     <h1>Preencha aqui</h1>
 
     <section>
@@ -33,7 +35,7 @@
         </div>
 
         <div>
-            <label for="usuaria-talentosa">declaro que sou muito talentosa</label>
+            <label for="usuaria-talentosa">Declaro que sou muito talentosa</label>
             <input type="checkbox" name="usuaria-talentosa">
 
         </div>
@@ -60,14 +62,17 @@
             </select>
         </div>
 
-        <div>
-            <label for="vida">Conte sua vida</label>
+        <div class="conte_vida">
+            <div>
+                <label for="vida">Conte sua vida</label>
+            </div>
             <textarea name="vida" rows="3" placeholder="Estudei no reprograma">Conte sua vida</textarea>
         </div>
 
-        <input type="submit" value="Enviar">
+        <input class="enviar" type="submit" value="Enviar">
 
         </form>
     </section>
+</section>
 </body>
 </html>
